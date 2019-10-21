@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="FormTool.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="FormTool"
+    Height="300"
+    Width="585">
+    <Grid
+        Width="570">
+        <TextBox
+            x:Name="textbox1"
+            Width="242"
+            Height="20"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Margin="32,0,0,219" />
+        <Label
+            x:Name="label1"
+            Content="IKE Office username"
+            Width="130"
+            Height="25"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="27,2,0,0" />
+        <Label
+            Content="IKE Office password"
+            Width="130"
+            Height="25"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="292,2,0,0" />
+        <PasswordBox
+            Width="120"
+            Height="20"
+            x:Name="password1"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Margin="297,0,0,219" />
+        <Button
+            Width="75"
+            Height="23"
+            x:Name="button1"
+            Click="button1_Click"
+            Content="Load Forms"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="0,18,57,0" />
+        <ListBox
+            Height="133"
+            Width="390"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="8,57,0,0"
+            x:Name="listbox1"></ListBox>
+        <Button
+            x:Name="button2"
+            Content="Generate Excel"
+            Width="95"
+            Height="23"
+            Grid.Column="0"
+            Grid.Row="0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="0,112,37,0"
+            Click="button2_Click" />
+    </Grid>
+</Window>
